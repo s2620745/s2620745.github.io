@@ -11,3 +11,6 @@ desktop.ini
 _drafts/
 *.psd
 *.ai
+
+# Claude Code のローカル設定
+.claude/

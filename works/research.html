@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>研究成果物 | 入福 遥斗</title>
+  <meta name="description" content="入福遥斗（Haruto Irifuku）のポートフォリオ：研究成果物">
+  <script>
+    (function () {
+      var lang = 'ja';
+      try {
+        var saved = localStorage.getItem('lang');
+        if (saved === 'ja' || saved === 'en') lang = saved;
+        else if ((navigator.language || 'ja').toLowerCase().indexOf('ja') !== 0) lang = 'en';
+      } catch (e) {}
+      document.documentElement.lang = lang;
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-title-ja="研究成果物 | 入福 遥斗" data-title-en="Research | Haruto Irifuku">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="../">
+        <span lang="ja">入福 遥斗</span><span lang="en">Haruto Irifuku</span>
+      </a>
+      <nav class="site-nav">
+        <a href="../#about"><span lang="ja">自己紹介</span><span lang="en">About</span></a>
+        <a href="../#portfolio"><span lang="ja">ポートフォリオ</span><span lang="en">Portfolio</span></a>
+      </nav>
+      <button class="lang-toggle" type="button" role="switch" aria-checked="false" aria-label="English">
+        <span class="lang-label">JA</span>
+        <span class="lang-track"><span class="lang-thumb"></span></span>
+        <span class="lang-label">EN</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container page">
+    <a class="back-link" href="../#portfolio">
+      <span class="arrow" aria-hidden="true">←</span>
+      <span lang="ja">ポートフォリオへ戻る</span><span lang="en">Back to portfolio</span>
+    </a>
+
+    <div class="page-head">
+      <span class="card-index">03</span>
+      <h1><span lang="ja">研究成果物</span><span lang="en">Research</span></h1>
+    </div>
+
+    <nav class="category-tabs" aria-label="Portfolio categories">
+      <a href="games.html"><span lang="ja">ゲーム</span><span lang="en">Games</span></a>
+      <a href="models.html"><span lang="ja">3D モデル</span><span lang="en">3D Models</span></a>
+      <a href="research.html" aria-current="page"><span lang="ja">研究成果物</span><span lang="en">Research</span></a>
+    </nav>
+
+    <div class="work-grid">
+      <!--
+        作品を追加するときは、下の work-card をコピーして使います。
+        <a class="work-card" href="research/作品名.html">
+          <div class="media ph-research">
+            <img src="../images/research/作品名.jpg" alt="" loading="lazy" onerror="this.remove()">
+          </div>
+          <h3><span lang="ja">作品名</span><span lang="en">Title</span></h3>
+          <p class="meta">2026 · Unity</p>
+        </a>
+      -->
+      <div class="work-card">
+        <div class="media ph-research">
+          <span class="ph-label">Coming soon</span>
+        </div>
+      </div>
+      <p class="empty-note"><span lang="ja">作品は準備中です。</span><span lang="en">Works will be added soon.</span></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-item">
+        <p class="footer-label">Contact</p>
+        <a href="mailto:s2620745@u.tsukuba.ac.jp">s2620745@u.tsukuba.ac.jp</a>
+      </div>
+      <div class="footer-item">
+        <p class="footer-label">SNS</p>
+        <p><span lang="ja">準備中</span><span lang="en">Coming soon</span></p>
+      </div>
+      <small class="copyright">&copy; 2026 Haruto Irifuku</small>
+      <p class="footer-note"><span lang="ja">このサイトは AI エンジンツール Claude を用いて作成されました。</span><span lang="en">This site was built with the AI tool Claude.</span></p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
