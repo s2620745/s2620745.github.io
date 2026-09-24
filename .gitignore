@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# 作業用ファイル（公開しないもの）
+_drafts/
+*.psd
+*.ai
